@@ -222,11 +222,7 @@ namespace op
         }
     }
 
-    template<typename T>
-    Array<T>::Array(Array<T>&& array) :
-        mSize{array.mSize},
-        mVolume{array.mVolume}
-    {
+   
         try
         {
             std::swap(spData, array.spData);
