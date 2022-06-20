@@ -363,7 +363,6 @@ int tutorialApiCpp()
     }
 }
 
-
 int main(int argc, char *argv[])
 {
     // Parsing command line flags
